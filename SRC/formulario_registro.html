@@ -50,16 +50,14 @@
     </header>
 
     <form>
-        <div class="row">
-
-        </div>
+        <div class="row"></div>
         <div class="row">
             <div class="col-3"></div>
             <div class="col-5">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Direccion de correo</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Enter email">
+                        placeholder="Enter email" required>
                     <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo con nadie</small>
                 </div>
             </div>
@@ -68,58 +66,46 @@
             <div class="col-3"></div>
             <div class="col-5">
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Nombre de usuario</label>
-                    <input type="user" class="form-control" id="exampleInputUser1" placeholder="Enter user name">
-                    <small id="emailHelp" class="form-text text-muted">EL nombre de usuario es publico</small>
+                    <label for="exampleInputUser1">Nombre de usuario</label>
+                    <input type="text" class="form-control" id="exampleInputUser1" placeholder="Enter user name"
+                        required>
+                    <small id="userHelp" class="form-text text-muted">El nombre de usuario es público</small>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-3">
-            </div>
+            <div class="col-3"></div>
             <div class="col-5">
                 <div class="form-group">
                     <label for="exampleInputPassword1">Contraseña</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña"
+                        required>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-3">
-
-            </div>
+            <div class="col-3"></div>
             <div class="col-3">
                 <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check" for="exampleCheck1">Deseo recibir notificaciones sobre nuevos
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                    <label class="form-check-label" for="exampleCheck1">Deseo recibir notificaciones sobre nuevos
                         servicios</label>
                 </div>
             </div>
             <div class="col-6">
                 <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Deseo recibir notificaciones sobre nuevos
-                        servicios</label>
+                    <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                    <label class="form-check-label" for="exampleCheck2">Acepto los términos y condiciones</label>
                 </div>
             </div>
         </div>
-        <div class="col-5">
-
-        </div>
         <div class="row">
-            <div class="col-4">
-
-            </div>
+            <div class="col-4"></div>
             <div class="col-4">
                 <button type="submit" class="btn btn-primary">Submit</button>
             </div>
-            <div class="col-4">
-
-            </div>
+            <div class="col-4"></div>
         </div>
-
-
-
     </form>
 
     <!-- Footer -->
@@ -135,6 +121,7 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
 
+    <script src="../JS/send.js"></script>
 
 </body>
 
